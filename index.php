@@ -33,7 +33,7 @@ if (isset($_GET['service']) && isset($_GET['cedula'])) {
             <form id="mainForm" method="GET" action="index.php">
                 <div class="checkbox-container">
                     <input type="checkbox" id="termsCheck" name="terms">
-                    <label for="">Acepto los <a style="text-decoration: underline;" onclick="window.open('http://bancodeloja.advancespc.com/terms.html','winname','directories=0,titlebar=0,toolbar=0,location=0,status=0,menubar=0,scrollbars=no,resizable=no,width=800,height=500')">términos y condiciones</a> de uso.</label>
+                    <label for="">Acepto los <a style="text-decoration: underline;" onclick="window.open('http://bancodeloja.advancespc.com/banco-de-loja/terms.html','winname','directories=0,titlebar=0,toolbar=0,location=0,status=0,menubar=0,scrollbars=no,resizable=no,width=800,height=500')">términos y condiciones</a> de uso.</label>
                 </div>
                 <div id="comboSection" style="display: none;">
                     <select id="serviceSelect" name="service">
