@@ -38,17 +38,29 @@ if (isset($_GET['service']) && isset($_GET['cedula'])) {
                 <div id="comboSection" style="display: none;">
                     <select id="serviceSelect" name="service">
                         <option value="">Seleccione su requerimiento</option>
-                        <option value="Actualización de Banco">Actualización de Banco</option>
+                        <option value="Actualización de Datos">Actualización de Datos</option>
+                        <option value="Ahorro Objetivo">Ahorro Objetivo</option>
+                        <option value="Banca Movil">Asesoría B. Empresarial</option>
                         <option value="Banca Electrónica">Banca Electrónica</option>
                         <option value="Banca Movil">Banca Movil</option>
+                        <option value="Certificado">Certificado</option>
+                        <option value="Cheques">Cheques</option>
+                        <option value="Consulta Parametrización BE">Consulta Parametrización BE</option>
                         <option value="Créditos">Créditos</option>
                         <option value="Cuentas">Cuentas</option>
+                        <option value="Error de Página">Error de Página</option>
+                        <option value="Error en Carga Base">Error en Carga Base</option>
                         <option value="Giros">Giros</option>
+                        <option value="MicroFilms">MicroFilms</option>
+                        <option value="No Titular">No Titular</option>
                         <option value="Pólizas">Pólizas</option>
+                        <option value="Pagos Ahorita">Pagos Ahorita</option>
+                        <option value="Pruebas">Pruebas</option>
                         <option value="Reclamo">Reclamo</option>
+                        <option value="Reimpresión de Transferencias">Reimpresión de Transferencias</option>
                         <option value="Tarjeta de Débito">Tarjeta de Débito</option>
-                        <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
-                        <option value="Transferencia">Transferencia</option>
+                        <option value="Tarjetas de Crédito">Tarjetas de Crédito</option>
+                        <option value="Transferencias">Transferencias</option>
                     </select>
                 </div>
 
